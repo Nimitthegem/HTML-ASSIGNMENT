@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</span>
+    <div style="display: flex; justify-content: center;">
+    <form>
+    <h1>Student Registration form</h1>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="phone">Phone number:</label>
+      <input type="tel" id="phone" name="phone" required><br><br>
+
+      <label for="dob">Date of birth:</label>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <span><label for="address">Address:</label><br>
+      <textarea name="address" id="address" cols="50" rows="8"></textarea></span>
+      <br><br>
+
+      <label for="gender">Gender:</label><br>
+
+      <input type="radio" id="gender-male" name="gender" value="male" required>
+      <label for="gender-male">Male</label><br>
+
+      <input type="radio" id="gender-female" name="gender" value="female" required>
+      <label for="gender-female">Female</label><br>
+
+      <input type="radio" id="gender-other" name="gender" value="other" required>
+      <label for="gender-other">Other</label><br><br>
+
+      <label for="city">City:</label>
+      <select id="city" name="city" required>
+
+        <option value="" disabled selected>Select a city</option>
+        <option value="city1">Panchkula</option>
+        <option value="city2">Guragaon</option>
+        <option value="city3">Chandigarh</option>
+
+      </select><br><br>
+
+      <label for="hobbies">Hobbies:</label><br>
+
+      <input type="checkbox" id="hobby-1" name="hobby-1" value="hobby-1">
+      <label for="hobby-1">Music</label><br>
+
+      <input type="checkbox" id="hobby-2" name="hobby-2" value="hobby-2">
+      <label for="hobby-2">Sports</label><br>
+
+      <input type="checkbox" id="hobby-3" name="hobby-3" value="hobby-3">
+      <label for="hobby-3">Reading</label><br>
+
+      <input type="checkbox" id="hobby-4" name="hobby-4" value="hobby-4">
+      <label for="hobby-4">Travelling</label><br>
+
+      <input type="checkbox" id="hobby-5" name="hobby-5" value="hobby-5">
+      <label for="hobby-5">Chess</label><br><br>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+
+    </form>
+    
+</div> 
+    <br>
+    <h2 style="text-align: center;">Student Records</h2>
+
+    <div style="display: flex; justify-content: center;">
+        
+       
+    <table style="border: 1px solid red;">
+      <thead>
+        <tr>
+          <th>SNo</th>
+          <th>Name</th>
+          <th>Phone no</th>
+          <th>Gender</th>
+          <th>City</th>
+          <th>Hobbies</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+            <td rowspan="2" >1</td>
+            <td rowspan="2">Abc</td>
+            <td rowspan="2">123456789</td>
+            <td rowspan="2">Male</td>
+            <td rowspan="2">Guragaon</td>
+            <td>Playing</td>
+        </tr>
+        <tr>
+            <td>Reading</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="2">2</td>
+            <td rowspan="2">Def</td>
+            <td rowspan="2">133446779</td>
+            <td rowspan="2">Male</td>
+            <td rowspan="2">Panchkula</td>
+            <td>Playing</td>
+        </tr>
+        <tr>
+            <td>Cooking</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">3</td>
+            <td rowspan="2">Ghi</td>
+            <td rowspan="2">144456999</td>
+            <td rowspan="2">Female</td>
+            <td rowspan="2">Chandigarh</td>
+            <td>Dancing</td>
+        </tr>
+        <tr>
+            <td>Playing</td>
+        </tr>
+      </tbody>
+      </table>
+    </div>
+    
+</body>
+</html>
